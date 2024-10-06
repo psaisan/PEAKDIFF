@@ -2,8 +2,7 @@
   
 # PEAKDIFF
 
-
-This python based binformatics pipeline code integrates ATAC-seq and H3K27ac ChIP-seq data for differential analysis of two distinct biological conditions. It processes and visualizes ChIP-seq signal intensities around distal ATAC-seq peaks within specified size windows and identifies regions of differential acetylation using DESeq2 (with thresholds of FC > 2 and p-adj < 0.05). The code generates scatter plots visualizing the average signal within each peak for both conditions and color codes differentially acetylated peaks accordingly.
+This Python-based bioinformatics pipeline integrates ATAC-seq and H3K27ac ChIP-seq data to perform differential analysis between two distinct experimental conditions. It processes and visualizes ChIP-seq signal intensities around distal ATAC-seq peaks of specific size windows and identifies regions of differential acetylation using DESeq2 (with thresholds of FC > 2 and p-adj < 0.05). The pipeline generates scatter plots that visualize the average signal within each peak across both conditions and uses color coding to categorize peaks based on their condition-specific classifications.
 
 
 <img src="./Images/anatomyScatter.PNG" style="border: 0;" />
