@@ -2,11 +2,13 @@
   
 # PEAKDIFF
 
-This code is part of a fundamental bioinformatics analysis pipeline designed to integrate ATAC-seq and H3K27ac ChIP-seq data, commonly used in bioinformatics to compare two biological conditions for differential analysis. It processes and visualizes ChIP-seq signal intensity around distal ATAC-seq peaks within a variable basepare window size, identifying regions of differential acetylation determined by DESeq2 (FC > 2, p-adj < 0.05). The code generates scatter plots showing the average signal for both conditions, highlighting differentially acetylated regions. These plots incorporate enhancer annotations, including signature enhancers associated with the two conditions, and apply color coding to segment peaks and facilitate comparison between conditions.
+
+This python based binformatics pipeline code integrates ATAC-seq and H3K27ac ChIP-seq data for differential analysis of two distinct biological conditions. It processes and visualizes ChIP-seq signal intensities around distal ATAC-seq peaks within specified size windows and identifies regions of differential acetylation using DESeq2 (with thresholds of FC > 2 and p-adj < 0.05). The code generates scatter plots visualizing the average signal within each peak for both conditions and identifies differentially acetylated peaks.
+
 
 <img src="./Images/anatomyScatter.PNG" style="border: 0;" />
 
- 
+
 ### Data Input:
 - **ATAC-seq peaks:** Genomic regions representing open chromatin sites, provided as input files for two conditions.
 - **H3K27ac ChIP-seq signal:** Acetylation marks around ATAC-seq peaks for the same two conditions.
