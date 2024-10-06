@@ -6,20 +6,6 @@ This code is part of a fundamental bioinformatics analysis pipeline designed to 
 
 <img src="./Images/anatomyScatter.PNG" style="border: 0;" />
 
-,,,
-
-<div style="text-align: center;">
-<table style="border-collapse: collapse;">
-  <tr>
-    <td style="border: none;">
-      <img src="./Images/peakScatter.png" style="border: 0; height: 400px;" />
-    </td>
-    <td style="border: none;">
-      <img src="./Images/histogram.png" style="border: 0; height: 400px;" />
-    </td>
-  </tr>
-</table>
-</div>
  
 ### Data Input:
 - **ATAC-seq peaks:** Genomic regions representing open chromatin sites, provided as input files for two conditions.
