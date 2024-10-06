@@ -33,12 +33,6 @@ This code is part of a fundamental bioinformatics analysis pipeline designed to 
   - **Color-coding:** Regions are colored based on differential acetylation: red/orange for increased acetylation during NASH, blue/purple for decreased acetylation, and green for overlapping with KC signature enhancers.
 - **Histogram of H3K27ac Signal:** Shows the density of H3K27ac signal as a function of distance from peak center, accumulated over all peaks for Condition1 and Condition2
 
-## Credits  
-
-Notebook is was written by Payam Saisan
-Notebook relies on low level HOMER processing functions
-
-
 # Notebook
 
 [PEAKDIFF Notebook](./Notebooks/Kupffer_Cells_HEALTHY_vs_MASH_H3K27ac_differential_scatterPlot.ipynb)
