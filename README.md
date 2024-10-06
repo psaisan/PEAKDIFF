@@ -9,12 +9,14 @@ This Python-based bioinformatics pipeline integrates ATAC-seq and H3K27ac ChIP-s
 
 
 ### Data Input:
-- **ATAC-seq peaks:** Genomic regions representing open chromatin sites, provided as input files for two conditions.
-- **H3K27ac ChIP-seq signal:** Acetylation marks around ATAC-seq peaks for the same two conditions.
-- **DESeq2 output:** Differential acetylation results (fold change > 2, p-adjusted < 0.05) identifying significantly modified regions.
+- **ATAC-seq peaks file:** Genomic regions representing integrated (merged) open chromatin sites for two distinct experimental conditions.
+
+- **H3K27ac ChIP-seq signal tag directories:** Acetylation tag counts captured as two distinct H3k27ac ChIP-seq tag directories (2 reps per condition) for the two experimental conditions.
+
 
 ### Data Output:
 - **Processed DataFrames:** Data for each condition, including ChIP-seq signal around ATAC-seq peaks, used to calculate the average tag counts for each peak.
+
 - **Summed Tags:** Total tag counts for each condition, representing the overall acetylation signal intensity across the regions of interest.
 
 ### Graphs Generated:
