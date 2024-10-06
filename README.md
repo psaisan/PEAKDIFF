@@ -19,6 +19,8 @@ This Python-based bioinformatics pipeline integrates ATAC-seq and H3K27ac ChIP-s
 
 - **Summed Tags:** Total tag counts for each condition, representing the overall acetylation signal intensity across the regions of interest.
 
+- **DESeq2 output:** Differential acetylation results (fold change > 2, p-adjusted < 0.05) identifying significantly modified regions.
+
 ### Graphs Generated:
 - **Scatter Plot of H3K27ac Signal:** Shows average tag counts for each condition, comparing acetylation levels around ATAC-seq peaks.
   - **Color-coding:** Regions are colored based on differential acetylation: red/orange for increased acetylation during NASH, blue/purple for decreased acetylation, and green for overlapping with KC signature enhancers.
