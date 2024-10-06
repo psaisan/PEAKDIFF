@@ -4,7 +4,9 @@
 
 This code is part of a fundamental bioinformatics analysis pipeline designed to integrate ATAC-seq and H3K27ac ChIP-seq data, commonly used in bioinformatics to compare two biological conditions for differential analysis. It processes and visualizes ChIP-seq signal intensity around distal ATAC-seq peaks within a variable basepare window size, identifying regions of differential acetylation determined by DESeq2 (FC > 2, p-adj < 0.05). The code generates scatter plots showing the average signal for both conditions, highlighting differentially acetylated regions. These plots incorporate enhancer annotations, including KC signature enhancers, and apply color coding (red/orange for increased acetylation, blue/purple for decreased acetylation) to facilitate comparison between conditions, especially in regions of biological significance such as those overlapping with KC signature enhancers.
 
- 
+<img src="./Images/anatomyScatter.PNG" style="border: 0;" />
+
+,,,
 
 <div style="text-align: center;">
 <table style="border-collapse: collapse;">
