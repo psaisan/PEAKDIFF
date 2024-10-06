@@ -10,10 +10,10 @@ This code is part of a fundamental bioinformatics analysis pipeline designed to 
 <table style="border-collapse: collapse;">
   <tr>
     <td style="border: none;">
-      <img src="./Images/peakScatter.png" style="border: 0; height: 500px;" />
+      <img src="./Images/peakScatter.png" style="border: 0; height: 400px;" />
     </td>
     <td style="border: none;">
-      <img src="./Images/histogram.png" style="border: 0; height: 500px;" />
+      <img src="./Images/histogram.png" style="border: 0; height: 400px;" />
     </td>
   </tr>
 </table>
