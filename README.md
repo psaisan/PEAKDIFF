@@ -9,11 +9,16 @@ This Python-based bioinformatics pipeline integrates ATAC-seq and H3K27ac ChIP-s
 
 
 ### Data Input:
-- **ATAC-seq peaks file:** Genomic regions representing integrated (merged) open chromatin sites for two distinct experimental conditions.
+- **ATAC-seq peaks file:** Genomic regions representing integrated (merged) open chromatin sites for two distinct experimental conditions:
+    - 1- ATAC_Peak_file
 
 - **H3K27ac ChIP-seq signal tag directories:** Acetylation tag counts captured as two distinct H3k27ac ChIP-seq tag directories (2 reps per condition) for the two experimental conditions.
-
-
+  
+    - 2- Healthy H3K27ac ChIP rep1
+    - 3- Healthy H3K27ac ChIP rep2
+    - 4- MASH H3K27ac ChIP rep1
+    - 5- MASH H3K27ac ChIP rep2
+    
 ### Data Output:
 - **Processed DataFrames:** Data for each condition, including ChIP-seq signal around ATAC-seq peaks, used to calculate the average tag counts for each peak.
 
