@@ -44,5 +44,5 @@ Full datase on GEO: [GSE128338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?a
 
 ## Questions
 
-Contact psaisan@gmail.com for remaining questions, and large data files not included in the archive
+Contact psaisan@gmail.com in case of questions, and to request data files not included in the archive
 
