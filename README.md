@@ -41,3 +41,8 @@ This Python-based bioinformatics pipeline integrates ATAC-seq and H3K27ac ChIP-s
 The data used in this example is from a 2020 study, [Seidman et al](https://pubmed.ncbi.nlm.nih.gov/32362324/), looking at epigenomic changes in the immune system cells (Kupffer) as they undergo a diet induced transformation.
 
 Full datase on GEO: [GSE128338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128338)
+
+## Questions
+
+Contact psaisan@gmail.com for remaining questions, and large data files not included in the archive
+
