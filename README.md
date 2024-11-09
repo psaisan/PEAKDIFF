@@ -31,6 +31,11 @@ This Python-based bioinformatics pipeline integrates ATAC-seq and H3K27ac ChIP-s
   - **Color-coding:** Regions are colored based on differential acetylation: red/orange for increased acetylation during NASH, blue/purple for decreased acetylation, and green for overlapping with KC signature enhancers.
 - **Histogram of H3K27ac Signal:** Shows the density of H3K27ac signal as a function of distance from peak center, accumulated over all peaks for Condition1 and Condition2
 
+### System requirements
+
+- **Python 3.7+**
+- **HOMER Suite:** Ensure that [HOMER](http://homer.ucsd.edu) is installed and accessible in your system's PATH.
+
 # Notebook
 
 [PEAKDIFF Notebook](./Notebooks/Kupffer_Cells_HEALTHY_vs_MASH_H3K27ac_differential_scatterPlot.ipynb)
